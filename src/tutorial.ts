@@ -62,3 +62,16 @@ id ={
     age:18
 }
 
+type post ={
+    caption:string,
+    image:string,
+    video:string,
+    likes?:number
+}
+
+let social:post ={
+caption:"gbkjhkr",
+image:"wth36t3453dnkvb.com ",
+video:"http/wkjuhgteruiiiii.com",
+likes:45
+}
