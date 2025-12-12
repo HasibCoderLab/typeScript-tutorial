@@ -86,3 +86,22 @@ type mathFn = (a:number , b:number) => number
 let add:mathFn = (a,b) =>{
     return a
 }
+
+
+//   =============== TypeScript Generics ==============
+
+function hello<T>(a:T,B:T){
+
+}
+hello(14,15);
+
+
+function forNum<T>(a:T,b:T){
+
+}
+forNum<number>(14,18)
+ 
+function forStr<T>(a:T,b:T):T{
+    return a;
+}
+forStr("Hi" , "Hasib");
